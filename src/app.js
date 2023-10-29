@@ -17,7 +17,8 @@ window.onload = function() {
     "The storm ",
     "The governor ",
     "The mayor ",
-    "The policeman "
+    "The policeman ",
+    "The guy in the street's corner"
   ];
   let action = [
     "ate ",
