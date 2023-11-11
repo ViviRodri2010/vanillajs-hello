@@ -66,6 +66,6 @@ window.onload = function() {
   let index2 = Math.floor(Math.random() * action.length);
   let index3 = Math.floor(Math.random() * what.length);
   let index4 = Math.floor(Math.random() * when.length);
-  let excuse = who[index1] + action[index2] + what[index3] + when[index4];
+  let excuse = 'You are not going to beleive it, but. '+who[index1] + action[index2] + what[index3] + when[index4];
   document.getElementById("excuse").innerHTML = "<p>" + excuse + "</p>";
 };
